@@ -8396,9 +8396,7 @@ end
 local g
 local h
 ae.Icon"minimize"
-ae.Icon"maximize"
 
-an:CreateTopbarButton("Fullscreen","maximize",function()
 an:ToggleFullscreen()
 end,998)
 
